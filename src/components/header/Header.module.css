@@ -4,8 +4,9 @@ header {
 }
 
 header img {
-  height: 5rem;
-  width: 10rem;
+  height: auto;
+  width: 100%;
+  max-width: 7rem;
   object-fit: cover;
 }
 
@@ -26,10 +27,28 @@ header p {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-@media screen and (max-width: 544px) {
+.header__content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 720px) {
   header h1 {
     font-size: 4rem;
     line-height: 4rem;
+  }
+  .header__content {
     padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  header img {
+    display: none;
   }
 }
