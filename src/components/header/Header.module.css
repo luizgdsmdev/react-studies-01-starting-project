@@ -25,3 +25,11 @@ header p {
   color: #8964b0;
   font-family: "Roboto Condensed", sans-serif;
 }
+
+@media screen and (max-width: 544px) {
+  header h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    padding-bottom: 2rem;
+  }
+}

@@ -1,0 +1,49 @@
+.coreConcepts__li {
+  width: 100%;
+  max-width: 20rem;
+  text-align: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #8964b014;
+  border-radius: 21px;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.coreConcepts__li:hover {
+  background-color: #8964b024;
+  transform: scale(1.02);
+}
+
+.coreConcepts__li_img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  max-width: 11rem;
+}
+
+.coreConcepts__li:hover .coreConcepts__li_img {
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(1px);
+  }
+  50% {
+    transform: translateY(-1px);
+  }
+}
+
+.coreConcepts__li_h3 {
+  margin: 1rem 0 0 0;
+}
+
+.coreConcepts__li_p {
+  font-size: 1rem;
+}

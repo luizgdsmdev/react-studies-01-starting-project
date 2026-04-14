@@ -3,6 +3,7 @@ import { randomNumber } from "../../utils/randomNumber/RandomNumber";
 import reactCoreConcepts from "../../assets/react-core-concepts.png";
 
 const subTitleHolder = ["Fundamental", "Core", "Essential"];
+// Since the array has 3 elements, the random number will be 0, 1 or 2
 const subText = subTitleHolder[randomNumber(2)];
 
 function Header() {

@@ -1,9 +1,11 @@
 import styles from "./Main.module.css";
 
+import CoreConceptList from "../coreConceptsList/CoreConceptList";
+
 function Main() {
   return (
     <main className={styles.main}>
-      <h2>Time to get started!</h2>
+      <CoreConceptList />
     </main>
   );
 }
