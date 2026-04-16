@@ -1,7 +1,7 @@
 import styles from "./Main.module.css";
 
 import CoreConceptList from "../coreConceptsList/CoreConceptList";
-import ExamplesSnippet from "../examplesSnippet/examplesSnippet";
+import ExamplesSnippet from "../examplesSnippet/ExamplesSnippet";
 
 /**
  * @description Main component for rendering the main section defined by core concepts list and examples snippet
