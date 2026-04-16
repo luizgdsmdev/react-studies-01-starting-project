@@ -1,0 +1,23 @@
+.tabContent {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0 6px 6px 6px;
+    background-color: #2f1d43;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    margin: 0rem 0;
+    border: 2px solid #2f1d43;
+    border-top: none;
+}
+
+.tabContent p{
+    margin: 0.3rem 0;
+}
+
+.tabContent h3 {
+    margin: 0;
+}
+
+.tabContent code, pre {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+}

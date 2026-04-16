@@ -3,6 +3,10 @@ import stateImg from "../../assets/state-mgmt.png";
 import componentsImg from "../../assets/components.png";
 import jsxImg from "../../assets/jsx-ui.png";
 
+/**
+ * @Array of concept information objects for the examples snippet
+ * @type {Array<{title: string, description: string, img: string}>}
+ */
 export const conceptsInfo = [
   {
     title: "Components",

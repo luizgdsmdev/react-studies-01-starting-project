@@ -1,0 +1,15 @@
+.examples {
+    margin: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media (max-width: 480px) {
+    .examples {
+        margin: 3rem 0rem;
+    }
+}
