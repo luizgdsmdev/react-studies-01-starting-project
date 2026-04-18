@@ -1,6 +1,6 @@
 # React Essentials - Initial Studies
 
-The project is published on GitHub Pages: <https://luizgdsm.github.io/react-studies-01-starting-project>
+The project is published on GitHub Pages: [https://luizgdsmdev.github.io/react-studies-01-starting-project](https://luizgdsmdev.github.io/react-studies-01-starting-project/)
 
 A React starter study project focused on the library's fundamental concepts. This project demonstrates the basic structure of a modern React application using current best practices.
 
@@ -94,7 +94,7 @@ src/
 
 ## 🌐 Demo
 
-The project is published on GitHub Pages: <https://luizgdsm.github.io/react-studies-01-starting-project>
+The project is published on GitHub Pages: <[https://luizgdsmdev.github.io/react-studies-01-starting-project](https://luizgdsmdev.github.io/react-studies-01-starting-project/)
 
 ## 📄 License
 
